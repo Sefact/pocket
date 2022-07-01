@@ -20,4 +20,6 @@ export default defineComponent({
   </div>
 </template>
 
-<style></style>
+<style lang="scss">
+@import "assets/css/app.scss";
+</style>
