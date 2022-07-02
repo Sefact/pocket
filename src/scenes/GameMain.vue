@@ -1,10 +1,14 @@
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, onMounted, onUnmounted, ref } from "vue";
 
 export default defineComponent({
-  name: "Main",
+  name: "GameMain",
   components: {},
   setup() {
+    onMounted(() => {});
+
+    onUnmounted(() => {});
+
     return {};
   },
 });

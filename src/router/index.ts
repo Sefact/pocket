@@ -1,7 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-  { path: "/", name: "Main", component: () => import("../scenes/Main.vue") },
+  {
+    path: "/",
+    name: "Main",
+    component: () => import("../scenes/GameMain.vue"),
+  },
 ];
 
 const router = createRouter({
